@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    background-color: #000;
+    margin: 0;
+
+}
+
+/* Sidebar coding starts here.... */
+.sidebar {
+    height: 100%;
+    width: 150px;
+    background: rgba(231, 231, 231, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+}
+
+.image {
+    background-color: #d0d0d133;
+
+}
+
+.image img {
+    width: 150px;
+    opacity: 0.7;
+    height: 150px;
+}
+
+.btnbx {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    display: block;
+    /* color: #fff; */
+    color: #ffffffeb;
+    background-color: #d0d0d133;
+    padding: 5px 0;
+    min-height: 50px;
+    transition: background-color 1s, color 0.6s;
+    
+}
+
+.btnbx:hover {
+    background-color: rgba(208, 208, 209, 0.8);
+    color: #fff724;
+}
+/* .sidebar Ends here... */
+
+/* main section starts here... */
+
+.mainsec {
+    height: 1200px;
+    background-color: rgb(135, 135, 135);
+    margin-left: 150px;
+}
+
+.headerbx {
+    background-image: url("rk.png");
+    background-position: right 8% bottom 0%;
+    background-size: 37% 88%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.headerbx .opbox {
+    background-color: rgba(0 0 0/55%);
+    height: 100vh;
+}
+
+.headerbx .textbx {
+    color: #ffffffeb;
+    height: 400px;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    clear: both;
+}
+
+.headerbx .textbx h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+
+}
+
+.auto-text {
+    color: #fff724;
+}
+
+.cvbtn {
+    height: 50px;
+    margin-top: 60px;
+}
+
+.cvbtn a {
+    border: 1px solid #fff724;
+    border-radius: 10px;
+    color: #ffffffeb;
+    text-decoration: none;
+    padding: 8px 30px;
+    text-align: center;
+}
+
+.cvbtn .act-btn {
+    background-color: #fff724;
+    color: #000;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+/* About section stars here... */
+.aboutsec {
+    /* height: 300px; */
+    background-color: #000;
+    padding: 70px;
+}
+
+.aboutsec .myself h1 {
+    color: #fff724;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.myself .cont {
+    border: 2px solid #ffffffeb;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    margin-top: -25px;
+    padding: 40px;
+    color: #ffffffeb;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.reslt table{
+    border: 1px solid #ffffffeb;
+    width: 100%;
+    border-spacing: 0px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #e0e0e0db;
+}
+
+.reslt table tr, td{
+    color: #000;
+    border: 1px solid #ffffffeb;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.reslt table th {
+    font-size: 18px;
+}
+
+/* About ends here... */
+/* Skills bar starts here... */
+
+.mbar {
+    /* background-color: #e0e0e0db; */
+    background-color: #c5c1c1db;
+    width: 90%;
+    border-radius: 10px;
+    float: right;
+}
+
+.mbar .pbar {
+    padding: 10px;
+    height: 10px;
+    /* background-color: #cbbf6f; */
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mbar .pbar span {
+    font-size: 12px;
+    position: absolute;
+    top: 1.5px;
+    left: 100px;
+
+}
+/* Bars Ends here... */
+
+/* Skill section starts here... */
+.prjbx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prjbx .probx {
+    height: 270px;
+    background-image: url("rakesh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prjbx .probx1 {
+    height: 270px;
+    background-image: url("Contents/pr_06.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* skill ends here... */
+
+.contactbx {
+    /* height: 300px; */
+    background-color: #676767;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactbx h1 {
+    color: #fff724;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: -40px;
+}
+
+.socbx {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+    text-align: left;
+    color: #676767;
+}
+
+.socbx a {
+    text-decoration: none;
+    color: #676767;
+}
+
+.socbx div {
+    height: 75px;
+    /* width: 70%; */
+    border-radius: 16px;
+    background-color: #ffffffeb;
+    text-decoration: none;
+}
+
+.socbx div:hover {
+    opacity: 0.9;
+}
+
+.socbx i {
+    margin-top: 13px;
+    margin-left: 160px;
+}
+
+.socbx h2 {
+    color: #676767;
+    margin-top: -41px;
+    margin-left: 240px;
+}
+
+.contactbx .foot {
+    padding: 8px;
+    width: 50%;
+    color: #676767;
+    background-color: #ffffffeb;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -4%;
+    left: 25%;
+    font-size: 0.7rem;
+    opacity: 0.9;
+}
+
+.contactbx .foot h2 {
+    margin-top: -1px;
+}
+/* main section ends here... */
